@@ -10,3 +10,34 @@ body {
 width: 100%;
 height: 100%;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-areas:
+       "head head head"
+       "main main side"
+       "imgs imgs side"
+       "foot foot foot";
+ }
+ header {
+    grid-area: head;
+    background-color: darkred;
+ }
+ main {
+    grid-area: main;
+    background-color: darkcyan;
+ }
+ aside {
+    grid-area: side;
+    background-color: darkgreen;
+ }
+ footer {
+    grid-area: foot;
+    background-color: darkorange;
+ }
+ .imgs {
+    grid-area: imgs;
+    background-color: darkslateblue;}
+    
