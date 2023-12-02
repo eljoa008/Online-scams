@@ -23,11 +23,11 @@ body {
  }
  header {
     grid-area: head;
-    background-color: darkred;
+    background-color: rgb(113, 134, 153);
  }
  main {
     grid-area: main;
-    background-color: darkcyan;
+    background-color: rgb(66, 119, 119);
  }
  aside {
     grid-area: side;
@@ -35,9 +35,11 @@ body {
  }
  footer {
     grid-area: foot;
-    background-color: darkorange;
+    background-color: rgb(113, 134, 153);
  }
  .imgs {
     grid-area: imgs;
-    background-color: darkslateblue;}
-    
+    background-color: darkslateblue;
+}
+@media only screen and (max-width: 1200px) {
+}
