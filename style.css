@@ -27,11 +27,11 @@ body {
  }
  main {
     grid-area: main;
-    background-color: rgb(66, 119, 119);
+    background-color: rgb(255, 255, 255);
  }
  aside {
     grid-area: side;
-    background-color: darkgreen;
+    background-color: rgb(68, 113, 156);;
  }
  footer {
     grid-area: foot;
