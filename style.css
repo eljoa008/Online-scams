@@ -5,7 +5,7 @@ body{
   margin: 0;
   display: grid;
   grid-template-columns: auto 27% 27% 27%;
-  grid-template-rows: 8% 30% auto 105;
+  grid-template-rows: 8% 30% auto 10%;
   grid-template-areas:
   "sidebar header header header"
   "sidebar boks1 boks2 boks3"
@@ -31,6 +31,10 @@ section:nth-last-of-type(2){
 section:nth-last-of-type(3){
   grid-area: boks3;
   background-color: #024959;
+}
+main{
+  grid-area: main;
+  background-color: aqua;
 }
 footer{
   grid-area: footer;
