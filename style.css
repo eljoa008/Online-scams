@@ -4,14 +4,13 @@ body, html{
 body{
   margin: 0;
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(auto, 5);
+  grid-template-columns: auto 27% 27% 27%;
+  grid-template-rows: 8% 30% auto 10%;
   grid-template-areas:
- "boks1"
- "boks2"
- "boks3"
- "main"
- "footer"
+  "sidebar header header header"
+  "sidebar boks1 boks2 boks3"
+  "sidebar main main main"
+  "sidebar footer footer footer";
 }
 aside{
   grid-area: sidebar;
@@ -40,17 +39,4 @@ main{
 footer{
   grid-area: footer;
   background-color: #F2E3D5;
-}
-@media only screen and (min-width 768px) {
-  body {
-    margin: 0;
-    display: grid;
-    grid-template-columns: auto 27% 27% 27%;
-    grid-template-rows: 8% 30% auto 10%;
-    grid-template-areas:
-    "sidebar header header header"
-    "sidebar boks1 boks2 boks3"
-    "sidebar main main main"
-    "sidebar footer footer footer";
-  }
 }
