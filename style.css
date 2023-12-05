@@ -34,7 +34,7 @@ section:nth-last-of-type(3){
 }
 main{
   grid-area: main;
-  background-color: aqua;
+  background-color: #A8D8FF;
 }
 footer{
   grid-area: footer;
