@@ -17,6 +17,8 @@ body{
   "sidebar boks1 boks2 boks3"
   "sidebar main main main"
   "sidebar footer footer footer";
+  font-size: 2rem;
+  font-family:'Times New Roman', Times, serif
 }
 aside{
   grid-area: sidebar;
