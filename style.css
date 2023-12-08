@@ -28,15 +28,15 @@ header{
   grid-area: head;
   background-color: #024959;
 }
-section:nth-last-of-type(1){
+#fir1{
   grid-area: fir1;
   background-color: #3CA6A6;
 }
-section:nth-last-of-type(2){
+#fir2{
   grid-area: fir2;
   background-color: #026773;
 }
-section:nth-last-of-type(3){
+#fir3{
   grid-area: fir3;
   background-color: #024959;
 }
