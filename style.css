@@ -6,6 +6,7 @@
 }
 body, html{
   height: 100vh;
+  color: #012E40;
 }
 body{
   margin: 0;
@@ -23,28 +24,41 @@ body{
 aside{
   grid-area: side;
   background-color: #012E40;
+  color: #F2E3D5;
 }
 header{
   grid-area: head;
   background-color: #024959;
+  color: #F2E3D5;
 }
 #fir1{
   grid-area: fir1;
   background-color: #3CA6A6;
+  color: #F2E3D5;
 }
 #fir2{
   grid-area: fir2;
   background-color: #026773;
+  color: #F2E3D5;
 }
 #fir3{
   grid-area: fir3;
   background-color: #024959;
+  color: #024959;
 }
 main{
   grid-area: main;
   background-color: #F2E3D5;
+  color: #012E40;
 }
 footer{
   grid-area: foot;
   background-color: #024959;
+  font-size: 20px;
+}
+img{
+  width: 110px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
