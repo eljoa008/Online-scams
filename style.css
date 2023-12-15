@@ -44,7 +44,7 @@ header{
 #fir3{
   grid-area: fir3;
   background-color: #024959;
-  color: #024959;
+  color: #024959  ;
 }
 main{
   grid-area: main;
